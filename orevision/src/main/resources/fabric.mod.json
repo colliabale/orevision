@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "orevision",
+  "version": "${version}",
+  "name": "Ore Vision",
+  "description": "Highlights nearby ores through walls. Press X to toggle.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.orevision.OreVisionClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
